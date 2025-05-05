@@ -51,5 +51,5 @@ def endcol():
 @register.inclusion_tag("blog/post-list.html")
 def recent_posts(post):
     posts = Post.objects.exclude(pk=post.pk)[:5]
-    logger.debug("loaded %d recent post for post %d", len(post), post.pk)
+    logger.debug("loaded %d recent post for post %d", len(posts), post.pk)
     return {"title": "Recent Posts", "posts": posts}
