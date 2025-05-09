@@ -1,0 +1,153 @@
+[
+  {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+      "creator": 1,
+      "content": "I like myself!",
+      "content_type": 4,
+      "object_id": 1,
+      "created_at": "2024-12-23T23:27:23.711Z",
+      "modified_at": "2024-12-23T23:27:23.727Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+      "creator": 1,
+      "content": "adding a new comment, interesting",
+      "content_type": 7,
+      "object_id": 1,
+      "created_at": "2025-04-07T01:51:51.406Z",
+      "modified_at": "2025-04-07T01:51:51.406Z"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+      "value": "django"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-12-05T00:59:40.220Z",
+      "modified_at": "2024-12-23T23:34:23.885Z",
+      "published_at": "2024-12-23T23:34:22Z",
+      "title": "example post",
+      "slug": "example-post",
+      "summary": "example post",
+      "content": "example content post",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-12-23T22:53:17.075Z",
+      "modified_at": "2024-12-23T23:34:16.344Z",
+      "published_at": "2024-12-23T23:34:12Z",
+      "title": "Ever's post",
+      "slug": "evers-post",
+      "summary": "a simple ever post",
+      "content": "a simple content by Ever",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-12-23T23:58:58.069Z",
+      "modified_at": "2024-12-23T23:58:58.070Z",
+      "published_at": "2024-12-23T23:58:48Z",
+      "title": "post 3",
+      "slug": "post-3",
+      "summary": "post 3",
+      "content": "post 3",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-12-23T23:59:12.521Z",
+      "modified_at": "2024-12-23T23:59:12.521Z",
+      "published_at": "2024-12-23T23:59:05Z",
+      "title": "post 4",
+      "slug": "post-4",
+      "summary": "post 4",
+      "content": "post 4",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-12-23T23:59:26.636Z",
+      "modified_at": "2024-12-23T23:59:26.636Z",
+      "published_at": "2024-12-23T23:59:22Z",
+      "title": "post 5",
+      "slug": "post-5",
+      "summary": "post 5",
+      "content": "post 5",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+      "author": 1,
+      "created_at": "2024-12-23T23:59:41.304Z",
+      "modified_at": "2024-12-23T23:59:41.304Z",
+      "published_at": "2024-12-23T23:59:34Z",
+      "title": "post 6",
+      "slug": "post-6",
+      "summary": "post 6",
+      "content": "post 6",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blango_auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$bHlTd2NTQlVhQ2Q2azBwbHFRMGdVZg$b51n1k1b2giezVF4vtw66A",
+      "last_login": "2025-05-04T21:28:28.630Z",
+      "is_superuser": true,
+      "username": "ever",
+      "first_name": "",
+      "last_name": "",
+      "email": "ever@email.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-12-05T00:09:18.027Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
